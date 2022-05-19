@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "896148309656",
+    "project_id": "uasku-3d305",
+    "storage_bucket": "uasku-3d305.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896148309656:android:fc4c991e14c266814f32ed",
+        "android_client_info": {
+          "package_name": "com.siskadea.uasku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896148309656-2le5bdvqc433qc4c86n0q1re02o0d1n1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9r45uIke_rVmxECZC_HxVsBH0oWvsrZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896148309656-2le5bdvqc433qc4c86n0q1re02o0d1n1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
