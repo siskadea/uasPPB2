@@ -19,11 +19,17 @@
             android:layout_weight="1"
             android:text="Data Client" />
         <Button
-            android:id="@+id/catatan"
+            android:id="@+id/logout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Catatan" />
+            android:text="Logout" />
+<!--        <Button-->
+<!--            android:id="@+id/catatan"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="Catatan" />-->
 
     </LinearLayout>
 
@@ -42,14 +48,6 @@
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/webku"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Website yang dipesan"
-            android:inputType="text" />
-
-        <EditText
             android:id="@+id/nohp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -65,24 +63,39 @@
             android:hint="Email"
             android:inputType="textLongMessage" />
 
+<!--        <EditText-->
+<!--            android:id="@+id/alamat"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ems="10"-->
+<!--            android:hint="Alamat"-->
+<!--            android:inputType="textLongMessage" />-->
         <EditText
-            android:id="@+id/alamat"
+            android:id="@+id/webku"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Alamat"
-            android:inputType="textLongMessage" />
+            android:hint="Website yang dipesan"
+            android:inputType="text" />
+
+        <EditText
+
+            android:id="@+id/alamat"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:ems="10"
+            android:gravity="left|top"
+            android:hint="Catatan"
+            android:inputType="textMultiLine"
+            android:textSize="15sp">
+            <requestFocus />
+        </EditText>
 
         <Button
             android:id="@+id/simpan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Simpan" />
-        <Button
-            android:id="@+id/logout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
 
-            android:text="Logout" />
     </LinearLayout>
 </RelativeLayout>

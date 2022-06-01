@@ -104,6 +104,7 @@ dari masing-masing Akun
                     })
             }
                 R.id.tampil -> {
+                    startActivity(Intent(this@MainActivity, MyListData::class.java))
                 }
             }
         }
